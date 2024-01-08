@@ -98,7 +98,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="btn btn-neutral p-4 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
+          className="btn btn-neutral p-4 flex items-center gap-2 text-[1.1rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
           href="https://github.com"
           target="_blank"
         >

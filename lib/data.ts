@@ -35,20 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "JavaScript Developer",
+    title: "Full Stack JavaScript Developer",
     location: "Hyderabad, India",
     description:
-      "I worked as a javascript developer for 1.5 years on a . I also upskilled to the full stackI worked as a javascript developer for 1.5 years on a . I also upskilled to the full stackI worked as a javascript developer for 1.5 years on a . I also upskilled to the full stackI worked as a javascript developer for 1.5 years on a . I also upskilled to the full stack.",
+      "I am now a Full Stack Javascript Developer working in an agile team of 4, developing a modern web-based fully event driven diagramming tool and integrating it with the our Core product.I work on adding various capabilities to the tool using Angular, RxJS, REST APIs, Node.js. I enjoy working on this product as it gives me the ability to implement interesting features and solve complex problems.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2020",
+    date: "oct/2020 - present",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Javascript Developer",
     location: "Hyderabad, India",
     description:
-      "I'm now a full-stack developer working in a scrum team of 4. My stack includes Angular, React, Node.js, Next.js, TypeScript, Express.js and MongoDB.I worked as a javascript developer for 1.5 years on a . I also upskilled to the full stackI worked as a javascript developer for 1.5 years on a . I also upskilled to the full stackI worked as a javascript developer for 1.5 years on a . I also upskilled to the full stack",
+      "I was part of an international agile team of 7 working on enhancing the Evolve Classic Enterprise Architecture tool. My role was to implement new features to the product and fix bugs raised by QA and issues reported by our customers. I got to work on core web technologies like HTML, CSS, Vanilla Javascript and ASP.NET MVC and C# on the backend. I started exploring javascript frameworks during this time and i upskilled my javascript knowledge by learning Angular, TypeScript and Node.js and then i moved to the team which was responsible for developing a web-based diagramming tool for our application.",
     icon: React.createElement(FaReact),
-    date: "2020 - present",
+    date: "feb/2019 - oct/2020",
+  },
+  {
+    title: "Trainee Software Engineer",
+    location: "Hyderabad, India",
+    description:
+      "During my Internship at Force, I got to work on a Data Modeling tool written in java, This was my first exposure to work environment. I learned valuable skills during this time which has helped me to adapt to my first job easily.",
+    icon: React.createElement(FaReact),
+    date: "sept/2018 - dec/2018",
   },
 ] as const;
 

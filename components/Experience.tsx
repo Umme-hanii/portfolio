@@ -26,17 +26,13 @@ export default function Experience() {
             </svg>
           </div>
           <div className="timeline-start md:text-end mb-10">
-            <time className="font-mono italic text-neutral-400">
-              {experiencesData[0].date}
-            </time>
+            <time className="font-mono italic">{experiencesData[0].date}</time>
 
-            <div className="text-lg font-bold italic text-neutral-600">
+            <div className="text-lg font-bold italic">
               {experiencesData[0].title}
             </div>
-            <p className="!mt-0 text-neutral-500 font-semibold">
-              {experiencesData[0].location}
-            </p>
-            <p className="card-body bg-neutral  rounded-xl hover:bg-neutral-200 hover:text-neutral-600">
+            <p className="font-normal !mt-0">{experiencesData[1].location}</p>
+            <p className="card-body bg-neutral rounded-xl hover:bg-base-200">
               {experiencesData[0].description}
             </p>
           </div>

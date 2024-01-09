@@ -1,7 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import cityexplorer from "@/public/cityexplorer.png";
 import tasks from "@/public/tasks.png";
 import genius from "@/public/genius.png";
@@ -64,20 +63,24 @@ export const projectsData = [
   {
     title: "Next Genius",
     description: "This Next.js app is inspired by ChatGpt.",
+    projectUrl: "https://nextjs-apps-kohl.vercel.app/",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Daisyui"],
     imageUrl: genius,
   },
   {
     title: "City Explorer",
-    description: "A website to explore cities around the world.",
-    tags: ["Angular", "TypeScript", "Node.js", "Angular Material"],
+    description: "A Responsive website to explore cities around the world.",
+    tags: ["TypeScript", "Angular", "RxJS", "Node.js", "Angular Material"],
+    projectUrl: "https://city-explorer-frontend.vercel.app/",
     imageUrl: cityexplorer,
   },
+  // A Responsive website to explore cities around the world. Responsive across all devices, good accessibility, Displaying dynamic images, view static map for the selected city based on latitude and longitude. Node.js server serves cities data."
   {
     title: "Nextjs Suite",
     description:
       "An application having a bunch of dynamic and static components like tasks, drinks etc.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Daisyui"],
+    projectUrl: "https://nextjs-apps-kohl.vercel.app/",
     imageUrl: tasks,
   },
 ] as const;

@@ -26,13 +26,17 @@ export default function Experience() {
             </svg>
           </div>
           <div className="timeline-start md:text-end mb-10">
-            <time className="font-mono italic">{experiencesData[0].date}</time>
+            <time className="font-mono italic text-neutral-400">
+              {experiencesData[0].date}
+            </time>
 
-            <div className="text-lg font-bold italic">
+            <div className="text-lg font-bold italic text-neutral-600">
               {experiencesData[0].title}
             </div>
-            <p className="font-normal !mt-0">{experiencesData[0].location}</p>
-            <p className="card-body bg-neutral rounded-xl hover:bg-base-200">
+            <p className="!mt-0 text-neutral-500 font-semibold">
+              {experiencesData[0].location}
+            </p>
+            <p className="card-body bg-neutral  rounded-xl hover:bg-neutral-200 hover:text-neutral-600">
               {experiencesData[0].description}
             </p>
           </div>
@@ -55,14 +59,14 @@ export default function Experience() {
             </svg>
           </div>
           <div className="timeline-end mb-10">
-            <time className="font-mono italic">{experiencesData[0].date}</time>
+            <time className="font-mono italic">{experiencesData[1].date}</time>
 
             <div className="text-lg font-bold italic">
-              {experiencesData[0].title}
+              {experiencesData[1].title}
             </div>
-            <p className="font-normal !mt-0">{experiencesData[0].location}</p>
+            <p className="font-normal !mt-0">{experiencesData[1].location}</p>
             <p className="card-body bg-neutral rounded-xl hover:bg-base-200">
-              {experiencesData[0].description}
+              {experiencesData[1].description}
             </p>
           </div>
           <hr />
@@ -85,15 +89,15 @@ export default function Experience() {
           </div>
 
           <div className="timeline-start md:text-end mb-10">
-            <time className="font-mono italic">{experiencesData[0].date}</time>
+            <time className="font-mono italic">{experiencesData[2].date}</time>
 
             <div className="text-lg font-bold italic">
-              {experiencesData[0].title}
+              {experiencesData[2].title}
             </div>
-            <p className="font-normal !mt-0">{experiencesData[0].location}</p>
+            <p className="font-normal !mt-0">{experiencesData[2].location}</p>
 
             <p className="card-body bg-neutral rounded-xl hover:bg-base-200">
-              {experiencesData[0].description}
+              {experiencesData[2].description}
             </p>
           </div>
 

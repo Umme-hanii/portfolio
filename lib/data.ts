@@ -83,14 +83,14 @@ export const projectsData = [
     imageUrl: cityexplorer,
   },
   // A Responsive website to explore cities around the world. Responsive across all devices, good accessibility, Displaying dynamic images, view static map for the selected city based on latitude and longitude. Node.js server serves cities data."
-  {
-    title: "Nextjs Suite",
-    description:
-      "An application having a bunch of dynamic and static components like tasks, drinks etc.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Daisyui"],
-    projectUrl: "https://nextjs-apps-kohl.vercel.app/",
-    imageUrl: tasks,
-  },
+  // {
+  //   title: "Nextjs Suite",
+  //   description:
+  //     "An application having a bunch of dynamic and static components like tasks, drinks etc.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Daisyui"],
+  //   projectUrl: "https://nextjs-apps-kohl.vercel.app/",
+  //   imageUrl: tasks,
+  // },
 ] as const;
 
 export const skillsData = [

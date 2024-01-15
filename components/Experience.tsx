@@ -9,7 +9,7 @@ export default function Experience() {
       className="scroll-mt-28 mb-28 sm:mb-40 text-neutral-content max-w-[53rem]"
     >
       <SectionHeading>My experience</SectionHeading>
-      <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-neutral-400">
+      <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">
             <svg
@@ -28,10 +28,12 @@ export default function Experience() {
           <div className="timeline-start md:text-end mb-10">
             <time className="font-mono italic">{experiencesData[0].date}</time>
 
-            <div className="text-lg font-bold italic">
+            <div className="text-lg font-bold italic text-secondary">
               {experiencesData[0].title}
             </div>
-            <p className="font-normal !mt-0">{experiencesData[1].location}</p>
+            <p className="font-normal !mt-0 text-accent">
+              {experiencesData[1].location}
+            </p>
             <p className="card-body bg-neutral rounded-xl hover:bg-base-200">
               {experiencesData[0].description}
             </p>
@@ -57,10 +59,12 @@ export default function Experience() {
           <div className="timeline-end mb-10">
             <time className="font-mono italic">{experiencesData[1].date}</time>
 
-            <div className="text-lg font-bold italic">
+            <div className="text-lg font-bold italic text-secondary">
               {experiencesData[1].title}
             </div>
-            <p className="font-normal !mt-0">{experiencesData[1].location}</p>
+            <p className="font-normal !mt-0 text-accent">
+              {experiencesData[1].location}
+            </p>
             <p className="card-body bg-neutral rounded-xl hover:bg-base-200">
               {experiencesData[1].description}
             </p>
@@ -87,10 +91,12 @@ export default function Experience() {
           <div className="timeline-start md:text-end mb-10">
             <time className="font-mono italic">{experiencesData[2].date}</time>
 
-            <div className="text-lg font-bold italic">
+            <div className="text-lg font-bold italic text-secondary">
               {experiencesData[2].title}
             </div>
-            <p className="font-normal !mt-0">{experiencesData[2].location}</p>
+            <p className="font-normal !mt-0 text-accent">
+              {experiencesData[2].location}
+            </p>
 
             <p className="card-body bg-neutral rounded-xl hover:bg-base-200">
               {experiencesData[2].description}

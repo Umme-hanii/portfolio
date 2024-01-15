@@ -13,7 +13,7 @@ export default function Intro() {
   return (
     <section
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] text-neutral-400"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -58,10 +58,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Umme Hani.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Full-Stack JavaScript developer</span> with{" "}
+        <span className="font-bold">5 years</span> of experience. I enjoy web
+        development. My focus is <span className="underline">Frontend</span>.
       </motion.h1>
 
       <motion.div
@@ -74,7 +73,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group btn btn-accent text-neutral-100 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
+          className="group btn btn-accent px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />

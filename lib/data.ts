@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import cityexplorer from "@/public/cityexplorer.png";
 import tasks from "@/public/tasks.png";
-import genius from "@/public/genius.png";
+import tourgenius from "@/public/tourgenius.png";
 
 export const links = [
   {
@@ -61,11 +61,19 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Next Genius",
-    description: "This Next.js app is inspired by ChatGpt.",
-    projectUrl: "https://nextjs-apps-kohl.vercel.app/",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Daisyui"],
-    imageUrl: genius,
+    title: "Tour Genius",
+    description: "A Tour planner inspired by ChatGpt.",
+    projectUrl: "https://tour-genius.vercel.app/",
+    tags: [
+      "Next.js",
+      "React",
+      "React Query",
+      "OpenAI API",
+      "Prisma",
+      "Tailwind CSS",
+      "Daisyui",
+    ],
+    imageUrl: tourgenius,
   },
   {
     title: "City Explorer",
@@ -91,11 +99,13 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "Angular",
-  "React",
+  "C#",
+  "React.js",
   "Next.js",
+  "React query",
   "Node.js",
   "Git",
-  "Tailwind",
+  "Tailwind CSS",
   "MongoDB",
   "Redux",
   "Angular Material",
@@ -105,5 +115,4 @@ export const skillsData = [
   "RXJS",
   "NgRx",
   "Prisma",
-  "Framer Motion",
 ] as const;

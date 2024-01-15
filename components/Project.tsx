@@ -32,21 +32,21 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-neutral  text-neutral-400 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-base-200 transition sm:group-even:pl-8">
+      <section className="bg-neutral max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-base-200 transition sm:group-even:pl-8">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed">{description}</p>
           <Link
             href={projectUrl}
-            className="group btn btn-accent max-w-32 my-4 text-neutral-100 px-7 py-3 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
+            className="group btn btn-accent max-w-32 my-4 px-7 py-3 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
             target="blank"
           >
             see live
           </Link>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+          <ul className="flex flex-wrap mt-4 gap-1 sm:mt-auto text-white">
             {tags.map((tag, index) => (
               <li
-                className="btn-sm bg-accent-content px-3 py-2 text-[0.7rem] uppercase tracking-wider rounded-lg"
+                className="btn-sm bg-secondary px-3 py-2 text-[0.7rem] uppercase tracking-wider rounded-lg"
                 key={index}
               >
                 {tag}

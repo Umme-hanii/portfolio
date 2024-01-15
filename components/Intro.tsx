@@ -81,7 +81,7 @@ export default function Intro() {
 
         <a
           className="group btn btn-neutral px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer"
-          href="/CV.pdf"
+          href="/UmmeHani_CV.pdf"
           download
         >
           Download CV{" "}
@@ -90,7 +90,7 @@ export default function Intro() {
 
         <a
           className="btn btn-neutral p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/umme-hani-270bb4168/"
           target="_blank"
         >
           <BsLinkedin />
@@ -98,7 +98,7 @@ export default function Intro() {
 
         <a
           className="btn btn-neutral p-4 flex items-center gap-2 text-[1.1rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
-          href="https://github.com"
+          href="https://github.com/Umme-hanii"
           target="_blank"
         >
           <FaGithubSquare />

@@ -37,7 +37,7 @@ export const experiencesData = [
     title: "Full Stack JavaScript Developer",
     location: "Hyderabad, India",
     description:
-      "I am now a Full Stack Javascript Developer working in an agile team of 4, developing a modern web-based fully event driven diagramming tool and integrating it with the our Core product.I work on adding various capabilities to the tool using Angular, RxJS, REST APIs, Node.js. I enjoy working on this product as it gives me the ability to implement interesting features and solve complex problems.",
+      "I am now a Full Stack Javascript Developer working in an agile team of 4, developing a modern web-based fully event driven diagramming tool and integrating it with the our Core product. I enjoy working on this product as it gives me the ability to implement interesting features and solve complex problems.",
     icon: React.createElement(CgWorkAlt),
     date: "oct/2020 - present",
   },
